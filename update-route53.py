@@ -11,7 +11,7 @@ ZONEID='<ZONEID>'
 RECORDSETS = ['<LIST OF DOMAINS TO UPDATE>']
 
 TYPE='A'
-READIP='https://diagnostic.opendns.com/myip'
+READIP='https://myip.dnsomatic.com'
 COMMENT="Auto updated on {:%B %d, %Y @ %H:%M}"
 LOGFILE='update-route53.log'
 IPFILE='update-route53.ip'
